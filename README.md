@@ -2,12 +2,12 @@
 ## 1.Introduction
 This data set contains information about 10,000 movies collected from The Movie Database (TMDb), including user ratings and revenue.Here I want find Which genres are most popular from year to year and What kinds of properties are associated with movies that have high revenues.
 ## 2.Data Wrangling
-. name of columns[0] is to long ,need to be rename
-. dtype of columns[0] is float ,need to be changed to int
-. movies.release_year is float ,need to be changed to period
-. movies.release_date ,need to be changed to datetime
-. movies.revenue_adj, need to be changed to float
-. movies.genres,movies.cast,movies.production_companies combineda lot of information together,need to be clean depand on analisys
+> name of columns[0] is to long ,need to be rename
+> dtype of columns[0] is float ,need to be changed to int
+> movies.release_year is float ,need to be changed to period
+> movies.release_date ,need to be changed to datetime
+> movies.revenue_adj, need to be changed to float
+> movies.genres,movies.cast,movies.production_companies combineda lot of information together,need to be clean depand on analisys
 
 ## 3.Exploratory Data Analysis
 ### 3.1.1 which genres are the most popular from year to year?
